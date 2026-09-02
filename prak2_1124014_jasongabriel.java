@@ -152,7 +152,6 @@ class Bebek extends HewanUdara {
     public String printSound() { return "Kwek Kwek"; }
 }
 
-// ========== Main Class ==========
 public class prak2_1124014_jasongabriel {
     public static void main(String[] args) {
         Hewan[] daftarHewan = new Hewan[] {
@@ -167,7 +166,6 @@ public class prak2_1124014_jasongabriel {
             new Bebek("Donald", 2, "Dedak", 0.8)
         };
 
-        // Loop manual menggunakan indeks (bukan enhanced for)
         for (int i = 0; i < daftarHewan.length; i++) {
             Hewan h = daftarHewan[i];
             System.out.println(h.printData());
